@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const NavLink = ({ children }: { children: ReactNode }) => (
   <Link
     px={2}
