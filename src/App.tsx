@@ -3,20 +3,20 @@ import {
   GridItem,
   useColorMode,
   useColorModeValue,
-} from "@chakra-ui/react";
-import Form from "./components/Form";
-import Nav from "./components/Nav";
-import SchemaCreator from "./components/SchemaCreator";
+} from '@chakra-ui/react'
+import Form from './components/Form'
+import Nav from './components/Nav'
+import SchemaCreator from './components/SchemaCreator'
 
 const App = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
-  const containerBg = useColorModeValue("white", "gray.700");
+  const { colorMode, toggleColorMode } = useColorMode()
+  const containerBg = useColorModeValue('white', 'gray.700')
 
   return (
     <div>
       <Nav />
       <Grid
-        h={"100%"}
+        h={'100%'}
         paddingLeft={10}
         paddingRight={10}
         paddingTop={10}
@@ -32,7 +32,7 @@ const App = () => {
         </GridItem>
       </Grid>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
