@@ -1,9 +1,7 @@
 import React from 'react'
-import { ReactNode } from 'react'
 import {
   Box,
   Flex,
-  Link,
   Button,
   useColorModeValue,
   Stack,
